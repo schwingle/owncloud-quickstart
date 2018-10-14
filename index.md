@@ -24,7 +24,7 @@ Run the Installation Wizard to complete the installation.
   1. In a browser, go to [http://localhost/owncloud](http://localhost/owncloud).
   2. Enter your desired administrator’s username and password.
   3. Click __Storage and Database__ to set your data directory location and database connection.
-    - Important! Your ownCloud data directory must already exist, be owned by your HTTP user, and be exclusive to ownCloud (not be modified manually by any other process or user).
+      - Important! Your ownCloud data directory must already exist, be owned by your HTTP user, and be exclusive to ownCloud (not be modified manually by any other process or user).
   4. Click __Finish Setup__.
 
 You can find your HTTP user in your HTTP server configuration files. For more information about your HTTP user, see [Post-Installation Steps](https://doc.owncloud.org/server/latest/admin_manual/installation/installation_wizard.html#post-installation-steps) on the ownCloud  [Installation Wizard](https://doc.owncloud.org/server/latest/admin_manual/installation/installation_wizard.html#post-installation-steps) page.

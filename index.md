@@ -58,9 +58,9 @@ Create a new user on the User management page of your ownCloud Web UI.
    2. Optionally, assign groups.
    3. Click __Create__.
 
-# Connect to Your ownCloud
+# Connect to the ownCloud Server
 * * *
-You can connect to your ownCloud with a web browser, a desktop client, or a mobile client. Download clients at [https://owncloud.org/download/](https://owncloud.org/download/).
+You can connect to your ownCloud server with a web browser, a desktop client, or a mobile client. Download clients at [https://owncloud.org/download/](https://owncloud.org/download/).
 
 ## Connect with a Browser
 

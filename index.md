@@ -44,7 +44,7 @@ On your server's Admin page, specify the host server name or the IP address.
 
 This information is stored in the 'dbhost' parameter in the  config/config.php file.
 
-    'dbhost' => '',
+    'dbhost' => 'myOwnCloudServer:8080',
 
 Learn more about config.php parameters at [Core Config.php Parameters](https://doc.owncloud.org/server/latest/admin_manual/configuration/server/config_sample_php_parameters.html).
 

@@ -11,9 +11,9 @@ Supported databases include SQLite, MYSQL/MariaDB, PostgreSQL, and Oracle 11g (E
 
 ## Update the Package Manager
 
-- In a browser, go to [http://download.owncloud.org/download/repositories/10.0/owncloud/](http://download.owncloud.org/download/repositories/10.0/owncloud/).
-- Select your Linux distribution.
-- Follow the instructions to add the repository and install it manually.
+1. In a browser, go to [http://download.owncloud.org/download/repositories/10.0/owncloud/](http://download.owncloud.org/download/repositories/10.0/owncloud/).
+2. Select your Linux distribution.
+3. Follow the instructions to add the repository and install it manually.
 
 Next, run the Installation Wizard.
 
@@ -32,7 +32,7 @@ You can find your HTTP user in your HTTP server configuration files. For more in
 
 # Configure the ownCloud Server
 * * *
-During setup in the Installation Wizard, click __Storage and Database__ to set your data directory and database connection.
+During setup in the Installation Wizard, click __Storage and Database__ to set your data directory location and database connection.
 
 There are many additional server configuration options you can choose. See [Server Configuration](https://doc.owncloud.org/server/latest/admin_manual/configuration/server/) for more information.
 

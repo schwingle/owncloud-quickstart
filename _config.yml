@@ -1,1 +1,8 @@
+# Site settings
+title: ownCloud Quickstart
+description: Get Up and Running with ownCloud
+show_downloads: true
+google_analytics:
 theme: jekyll-theme-modernist
+baseurl: "/owncloud-quickstart/"
+url: "http://schwingle.github.io/"

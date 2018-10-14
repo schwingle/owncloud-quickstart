@@ -5,7 +5,7 @@ layout: default
 * * *
 On a Linux distribution, you can use a package manager to install the server.
 
-__Note__: Before installing ownCloud, you should install your own HTTP Server, database, and PHP. This prevents dependency conflicts with the ownCloud package. Then update the package manager.
+__Note__: Before installing ownCloud, you should install your own HTTP server, database, and PHP. This prevents dependency conflicts with the ownCloud package. Then update the package manager.
 
 Supported databases include SQLite, MYSQL/MariaDB, PostgreSQL, and Oracle 11g (Enterprise edition only).
 

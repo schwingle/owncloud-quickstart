@@ -3,7 +3,9 @@ layout: default
 ---
 # Install the ownCloud Server
 * * *
-On a Linux distribution, you can use a package manager to install the server.
+On a Linux distribution (Debian, Ubuntu, Fedora, RedHat Enterprise Linux, CentOS, openSUSE, SLE, and Uninvention), you can use a package manager to install the server.
+
+Package managers should only be used for single-server setups. For production environments, install from the [tar archive](https://owncloud.org/download/#owncloud-server-tar-ball).
 
 __Note__: Before installing ownCloud, you should install your own HTTP server, database, and PHP. This prevents dependency conflicts with the ownCloud package. Then update the package manager.
 
@@ -11,7 +13,7 @@ Supported databases include SQLite, MYSQL/MariaDB, PostgreSQL, and Oracle 11g (E
 
 ## Update the Package Manager
 
-1. In a browser, go to [http://download.owncloud.org/download/repositories/10.0/owncloud/](http://download.owncloud.org/download/repositories/10.0/owncloud/).
+1. In a browser, go to [https://download.owncloud.org/download/repositories/stable/owncloud/index.html](https://download.owncloud.org/download/repositories/stable/owncloud/index.html).
 2. Select your Linux distribution.
 3. Follow the instructions to add the repository and install it manually.
 
@@ -28,7 +30,7 @@ Run the Installation Wizard to complete the installation.
       - __Note:__ Your ownCloud data directory must already exist, be owned by your HTTP user, and be exclusive to ownCloud (not be modified manually by any other process or user).
   4. Click __Finish Setup__.
 
-You can find your HTTP user in your HTTP server configuration files. For more information about your HTTP user, see [Post-Installation Steps](https://doc.owncloud.org/server/latest/admin_manual/installation/installation_wizard.html#post-installation-steps) on the ownCloud  [Installation Wizard](https://doc.owncloud.org/server/latest/admin_manual/installation/installation_wizard.html#post-installation-steps) page.
+You can find your HTTP user in your HTTP server configuration files. For more information about your HTTP user and setting permissions, see [Post-Installation Steps](https://doc.owncloud.org/server/latest/admin_manual/installation/installation_wizard.html#post-installation-steps) on the ownCloud  [Installation Wizard](https://doc.owncloud.org/server/latest/admin_manual/installation/installation_wizard.html#post-installation-steps) page.
 
 # Configure the ownCloud Server
 * * *
@@ -66,7 +68,7 @@ Connect to the server with a browser using the server's IP address or host serve
 
 ## Connect with a Desktop Client
 
-The ownCloud Desktop Client remains in the background and is visible as an icon in the system tray (Windows, KDE), menu bar (macOS), or notification area (Linux). Right-click on the icon to open a context menu and access your accounts.
+The ownCloud desktop client runs in the background and is visible as an icon in the system tray (Windows, KDE), menu bar (macOS), or notification area (Linux). Right-click the icon to open a context menu and access your accounts.
 
 ## Connect with a Mobile Client
 
